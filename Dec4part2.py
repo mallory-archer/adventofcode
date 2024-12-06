@@ -1,4 +1,4 @@
-with open('./dec4data.txt', "r") as f:
+with open('./dec4data_ex.txt', "r") as f:
     data = f.readlines()
 data = [x.strip("\n") for x in data]
 ncol = len(data)
